@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 int main() {
-    printf("Hello, World!\n");
+    /* Declare two numbers */
+    int num1;
+    int num2;
     return 0;
 }
