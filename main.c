@@ -13,7 +13,21 @@ int main() {
     scanf(" %c", &operator);
     printf("Enter second number: ");
     scanf("%lf", &num2);
-    /* Print answer (add both numbers together) */
-    printf("Answer: %f", num1 + num2);
+    /* Calculate answer based on operator condition. */
+    if (operator == '+') {
+        printf("%f + %f = %f\n", num1, num2, num1 + num2);
+    }
+    else if (operator == '-') {
+        printf("%f - %f = %f\n", num1, num2, num1 - num2);
+    }
+    else if (operator == '*') {
+        printf("%f * %f = %f\n", num1, num2, num1 * num2);
+    }
+    else if (operator == '/') {
+        printf("%f / %f = %f\n", num1, num2, num1 / num2);
+    }
+    else {
+        printf("Invalid operator!\n");
+    }
     return 0;
 }
