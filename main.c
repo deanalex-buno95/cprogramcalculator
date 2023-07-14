@@ -5,9 +5,12 @@ int main() {
     /* Declare two numbers */
     double num1;
     double num2;
+    char operator;
     /* Enter numbers */
     printf("Enter first number: ");
     scanf("%lf", &num1);
+    printf("Enter operator: ");
+    scanf(" %c", &operator);
     printf("Enter second number: ");
     scanf("%lf", &num2);
     /* Print answer (add both numbers together) */
